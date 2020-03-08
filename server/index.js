@@ -16,10 +16,10 @@ app.use('/about', router);
 //   console.log(`rendering`)
 // );
 
-app.use(express.static(`${__dirname}/../client/dist`));
+app.use(express.static(`${__dirname}/../public`));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(`${__dirname}/../client/dist/index.html`));
+  res.sendFile(path.resolve(`${__dirname}/../public/index.html`));
 });
 
 app.listen(PORT, () =>

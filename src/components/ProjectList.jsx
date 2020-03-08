@@ -19,10 +19,10 @@ const ProjectList = props => {
 
   return (
     <div>
-      {Projects.projectList.map(project => {
+      {Projects.projectList.map(project => (
         // console.log(props)
-        <ProjectEntry path={project.url} title={project.image} />;
-      })}
+        <ProjectEntry path={project.url} title={project.image} />
+      ))}
     </div>
   );
 };

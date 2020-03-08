@@ -113,13 +113,13 @@ const HomePage = () => {
 
   const changeThemeMode = () => {
     if (checkIfNightModeEnabled()) {
-      setAppClass('daylight'),
-        setBackgroundIndex(0),
-        setBackgroundMode(darkBackgroundModes[0]);
+      setAppClass('daylight');
+      setBackgroundIndex(0);
+      setBackgroundMode(darkBackgroundModes[0]);
     } else if (checkIfDayModeEnabled()) {
-      setAppClass('nightlight'),
-        setBackgroundIndex(0),
-        setBackgroundMode(lightBackgroundModes[0]);
+      setAppClass('nightlight');
+      setBackgroundIndex(0);
+      setBackgroundMode(lightBackgroundModes[0]);
     }
   };
 
@@ -134,11 +134,11 @@ const HomePage = () => {
       checkIfDayModeEnabled() &&
       backgroundIndex < darkBackgroundModes.length - 1
     ) {
-      setBackgroundIndex(backgroundIndex + 1),
-        setBackgroundMode(darkBackgroundModes[backgroundIndex + 1]);
+      setBackgroundIndex(backgroundIndex + 1);
+      setBackgroundMode(darkBackgroundModes[backgroundIndex + 1]);
     } else {
-      setBackgroundIndex(0),
-        setBackgroundMode(getDefaultModeBasedOnBackgroundType());
+      setBackgroundIndex(0);
+      setBackgroundMode(getDefaultModeBasedOnBackgroundType());
     }
   };
 
@@ -146,9 +146,11 @@ const HomePage = () => {
     if (checkIfPlainTypeEnabled()) {
       return;
     } else if (checkIfGradientTypeEnabled()) {
-      setAppClass('gradient'), setBgStyle(prepareGradientStyleSheets());
+      setAppClass('gradient');
+      setBgStyle(prepareGradientStyleSheets());
     } else if (checkIfImageTypeEnabled()) {
-      setAppClass('full-bg-image'), setBgStyle(prepareBackgroundImageStyle());
+      setAppClass('full-bg-image');
+      setBgStyle(prepareBackgroundImageStyle());
     }
   });
 

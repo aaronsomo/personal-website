@@ -2,19 +2,21 @@
   "name": "aaron",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://aaronsomo.github.io/personal-website/",
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack -d --watch",
     "start": "node server/index.js",
     "start:dev": "nodemon server/index.js -w server -w database-mysql",
     "seed": "node database/seed.js",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Aaron Southammavong",
   "license": "Aaron Southammavong",
   "devDependencies": {
-    "nodemon": "^1.18.10",
-    "webpack-cli": "^3.3.10"
+    "nodemon": "^1.18.10"
   },
   "dependencies": {
     "@babel/core": "^7.4.0",
@@ -26,6 +28,7 @@
     "body-parser": "^1.17.2",
     "css-loader": "^3.3.0",
     "express": "^4.17.1",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.2.1",
     "mongoose": "^5.7.13",
     "morgan": "^1.9.1",
@@ -39,6 +42,18 @@
     "style-loader": "^1.0.1",
     "styled-components": "^4.4.1",
     "underscore": "^1.8.3",
-    "webpack": "^4.29.6"
+    "react-scripts": "3.4.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
