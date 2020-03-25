@@ -1,8 +1,7 @@
 import React, { Component, useState, useEffect } from 'react';
 import Typist from 'react-typist';
-import '../App.css';
 import Configs from '../configurations.json';
-import ProjectList from './ProjectList.jsx';
+import About from './About.jsx';
 
 const HomePage = () => {
   const darkBackgroundModes = [
@@ -177,6 +176,9 @@ const HomePage = () => {
             ))}
           </div>
         </main>
+        <div className="App-main">
+          <About />
+        </div>
       </div>
     </div>
   );
