@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from 'react';
 import Typist from 'react-typist';
 import Configs from '../configurations.json';
 import About from './About.jsx';
+import Applications from './Applications.jsx';
 
 const HomePage = () => {
   const darkBackgroundModes = [
@@ -11,7 +12,7 @@ const HomePage = () => {
     'alizarin',
     'amythyst',
     'carrot',
-    'peterriver'
+    'peterriver',
   ];
 
   const lightBackgroundModes = [
@@ -20,7 +21,7 @@ const HomePage = () => {
     'lightpurple',
     'lightgreen',
     'lightblue',
-    'lightyellow'
+    'lightyellow',
   ];
 
   const [darkBackground, setDarkBackground] = useState(darkBackgroundModes);
@@ -73,13 +74,13 @@ const HomePage = () => {
     if (Configs.gradientColors) {
       return {
         background: 'linear-gradient(-45deg, ' + Configs.gradientColors + ')',
-        backgroundSize: '400% 400%'
+        backgroundSize: '400% 400%',
       };
     } else {
       return {
         background:
           'linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB)',
-        backgroundSize: '400% 400%'
+        backgroundSize: '400% 400%',
       };
     }
   };
@@ -91,13 +92,13 @@ const HomePage = () => {
           'url("' +
           Configs.backgroundImageUrl +
           '") no-repeat center center fixed',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
       };
     } else {
       return {
         background:
           'url("/images/sample-background.jpg") no-repeat center center fixed',
-        backgroundSize: 'cover'
+        backgroundSize: 'cover',
       };
     }
   };
@@ -171,13 +172,14 @@ const HomePage = () => {
                 href={`${icon.url}`}
                 key={index}
               >
-                <i className={`fab ${icon.image}`} />
+                <i className={`${icon.image}`} />
               </a>
             ))}
           </div>
         </main>
         <div className="App-main">
           <About />
+          {/* <Applications /> */}
         </div>
       </div>
     </div>

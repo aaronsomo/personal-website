@@ -7,12 +7,16 @@
   "backgroundImageUrl": "http://hdwpro.com/wp-content/uploads/2017/03/Art-Background-Image.png",
   "icons": [
     {
-      "image": "fa-github",
+      "image": "fab fa-github",
       "url": "https://github.com/aaronsomo"
     },
     {
-      "image": "fa-linkedin",
+      "image": "fab fa-linkedin",
       "url": "https://www.linkedin.com/in/aaronsouthammavong/"
+    },
+    {
+      "image": "far fa-address-card",
+      "url": "https://resume.creddle.io/resume/g9yezxvbe6n"
     }
   ]
 }

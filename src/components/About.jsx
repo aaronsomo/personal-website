@@ -1,5 +1,5 @@
 import React from 'react';
-import meirl from '../../public/meirl2.jpg';
+// import meirl from '../../public/meirl2.jpg';
 import technologies from '../utils/technologies.json';
 
 const About = () => (
@@ -21,12 +21,12 @@ const About = () => (
           <br></br> I enjoy solving problems that challenge my understanding, as
           well as engaging myself in finding better solutions. With my
           proficiency in front-end technologies using JavaScript, React, and
-          React-Native; projects in scaling back-end systems with technologies
-          like Express and Node.js; as well as my comfortability with both SQL
-          and NoSQL databases, I believe I’m equipped to be a strong asset in
-          any engineering environment. I’d love the opportunity to learn more
-          about your challenges and have a discussion about what I can do to
-          help solve them.
+          React-Native; experience in scaling back-end systems through
+          frameworks and libraries like Express and Node.js; as well as my
+          comfortability with both SQL and NoSQL databases, I believe I’m
+          equipped to be a strong asset in any engineering environment. I’d love
+          the opportunity to learn more about your challenges and have a
+          discussion about what I can do to help solve them.
         </div>
         <div className="paragraph">Some technologies that I frequent...</div>
         <div className="technologies-container">
