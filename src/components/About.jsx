@@ -9,8 +9,10 @@ const About = () => (
         <img className="picture" src={meirl} alt="img"></img>
       </div> */}
       <div className="about-text">
-        <div className="header">About Me</div>
-        <div className="text">
+        <div className="header" data-aos="fade-top">
+          About Me
+        </div>
+        <div className="text" data-aos="fade-up">
           Welcome! I'm Aaron and I have a knack for building creative and
           meaningful things, be it a bridge in Chicago or a web application on
           the Internet. As a former Civil Engineer, I’ve worked with different
@@ -28,43 +30,89 @@ const About = () => (
           the opportunity to learn more about your challenges and have a
           discussion about what I can do to help solve them.
         </div>
-        <div className="paragraph">Some technologies that I frequent...</div>
+        <div className="paragraph" data-aos="fade-left">
+          Some technologies that I frequent...
+        </div>
         <div className="technologies-container">
           <div className="technologies">
-            <div className="technologies-header">Languages</div>
+            <div
+              className="technologies-header"
+              data-aos="fade-top"
+              data-aos-delay="300"
+            >
+              Languages
+            </div>
             <div>
               {technologies.languages.map((technology, index) => (
-                <div className="text" key={index}>
+                <div
+                  className="text"
+                  data-aos="fade-top"
+                  data-aos-delay="300"
+                  key={index}
+                >
                   {technology}
                 </div>
               ))}
             </div>
           </div>
           <div className="technologies">
-            <div className="technologies-header">Frameworks & Libraries</div>
+            <div
+              className="technologies-header"
+              data-aos="fade-top"
+              data-aos-delay="500"
+            >
+              Frameworks & Libraries
+            </div>
             <div>
               {technologies.frameworksLibraries.map((technology, index) => (
-                <div className="text" key={index}>
+                <div
+                  className="text"
+                  data-aos="fade-top"
+                  data-aos-delay="500"
+                  key={index}
+                >
                   {technology}
                 </div>
               ))}
             </div>
           </div>
           <div className="technologies">
-            <div className="technologies-header">Databases</div>
+            <div
+              className="technologies-header"
+              data-aos="fade-top"
+              data-aos-delay="700"
+            >
+              Databases
+            </div>
             <div>
               {technologies.databases.map((technology, index) => (
-                <div className="text" key={index}>
+                <div
+                  className="text"
+                  data-aos="fade-top"
+                  data-aos-delay="700"
+                  key={index}
+                >
                   {technology}
                 </div>
               ))}
             </div>
           </div>
           <div className="technologies">
-            <div className="technologies-header">Developer Tools</div>
+            <div
+              className="technologies-header"
+              data-aos="fade-top"
+              data-aos-delay="900"
+            >
+              Developer Tools
+            </div>
             <div>
               {technologies.developerTools.map((technology, index) => (
-                <div className="text" key={index}>
+                <div
+                  className="text"
+                  data-aos="fade-top"
+                  data-aos-delay="900"
+                  key={index}
+                >
                   {technology}
                 </div>
               ))}
