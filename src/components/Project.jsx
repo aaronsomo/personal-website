@@ -8,10 +8,10 @@ import {
   icon,
   iconsWrapper,
   subTitle,
-} from '../sass/components/_project.module.scss';
+} from '../sass/components/_project.scss';
 import classNames from 'classnames';
-import youtubeIcon from '../../public/youtube.svg';
-import githubIcon from '../../public/github.svg';
+import youtubeIcon from '../images/youtube.svg';
+import githubIcon from '../images/github.svg';
 import VideoPortal from './videoPortal/videoPortal.js';
 
 const Project = ({ project, delay }) => {

@@ -5,7 +5,7 @@ import {
   projectsWrapper,
   content,
   mobileInfo,
-} from '../sass/components/_portfolio.module.scss';
+} from '../sass/components/_applications.scss';
 import { data } from '../utils/projects.js';
 import Project from './Project.jsx';
 import { useInView } from 'react-intersection-observer';
