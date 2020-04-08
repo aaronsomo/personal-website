@@ -179,7 +179,7 @@ const HomePage = () => {
         </main>
         <div className="App-main">
           <About />
-          {/* <Applications /> */}
+          <Applications />
         </div>
       </div>
     </div>
