@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.c84aea17.chunk.css",
-    "main.js": "/personal-website/static/js/main.1984e451.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.1984e451.chunk.js.map",
+    "main.css": "/personal-website/static/css/main.19b5685b.chunk.css",
+    "main.js": "/personal-website/static/js/main.92e631b2.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.92e631b2.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.481877c0.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.481877c0.js.map",
     "static/css/2.4707e12a.chunk.css": "/personal-website/static/css/2.4707e12a.chunk.css",
-    "static/js/2.2d8a3f7a.chunk.js": "/personal-website/static/js/2.2d8a3f7a.chunk.js",
-    "static/js/2.2d8a3f7a.chunk.js.map": "/personal-website/static/js/2.2d8a3f7a.chunk.js.map",
+    "static/js/2.94ccf2bb.chunk.js": "/personal-website/static/js/2.94ccf2bb.chunk.js",
+    "static/js/2.94ccf2bb.chunk.js.map": "/personal-website/static/js/2.94ccf2bb.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "precache-manifest.bc4474955a248c92b6492ea85edfdbc1.js": "/personal-website/precache-manifest.bc4474955a248c92b6492ea85edfdbc1.js",
+    "precache-manifest.d6a65c386450a0d8e9099c43a8698883.js": "/personal-website/precache-manifest.d6a65c386450a0d8e9099c43a8698883.js",
     "service-worker.js": "/personal-website/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/personal-website/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.c84aea17.chunk.css.map": "/personal-website/static/css/main.c84aea17.chunk.css.map",
-    "static/js/2.2d8a3f7a.chunk.js.LICENSE.txt": "/personal-website/static/js/2.2d8a3f7a.chunk.js.LICENSE.txt"
+    "static/css/main.19b5685b.chunk.css.map": "/personal-website/static/css/main.19b5685b.chunk.css.map",
+    "static/js/2.94ccf2bb.chunk.js.LICENSE.txt": "/personal-website/static/js/2.94ccf2bb.chunk.js.LICENSE.txt",
+    "static/media/github.svg": "/personal-website/static/media/github.27e94111.svg",
+    "static/media/youtube.svg": "/personal-website/static/media/youtube.17e15279.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.481877c0.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.2d8a3f7a.chunk.js",
-    "static/css/main.c84aea17.chunk.css",
-    "static/js/main.1984e451.chunk.js"
+    "static/js/2.94ccf2bb.chunk.js",
+    "static/css/main.19b5685b.chunk.css",
+    "static/js/main.92e631b2.chunk.js"
   ]
 }
