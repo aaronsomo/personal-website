@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+@import 'abstracts/animations';
+@import 'abstracts/variables';
+
+@import 'breakpoints/breakpoints';
+
+@import 'basics/button.scss';
+
+// @import 'components/app';
+@import 'components/homepage';
+@import 'components/about';
+@import 'components/applications';
+@import 'components/project';
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  @include media('>phone') {
+    scroll-behavior: smooth;
+  }
+  @include media('<=phone') {
+    font-size: 50%;
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: $font-primary1, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  // background-color: blue; // testing purposes
+  color: white;
+}

@@ -1,0 +1,49 @@
+.applications-container {
+  display: flex;
+
+  @include media('<=phone') {
+  }
+  flex-direction: column;
+  background-color: rgba(black, 0.5);
+  width: 80%;
+  padding-bottom: 5%; // main so aos animations will trigger
+  // justify-items: center;
+}
+
+.applications-header {
+  position: relative;
+}
+
+.projects-container {
+  display: flex;
+
+  @include media('<=phone') {
+  }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  background-color: rgba(black, 0.5);
+}
+
+.card {
+  position: relative;
+  width: 50%;
+}
+
+.projects2-container {
+  display: flex;
+
+  @include media('<=phone') {
+  }
+  flex-direction: row;
+  //   flex-wrap: wrap;
+  //   justify-content: space-evenly;
+
+  background-color: rgba(grey, 0.5);
+}
+
+.card2 {
+  position: relative;
+  width: 25%;
+}

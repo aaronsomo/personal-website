@@ -1,0 +1,75 @@
+.btn {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  backface-visibility: hidden;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+  border: 1px solid #ffffff;
+  font-size: 1rem;
+  &-card {
+    padding: 4px 10px;
+  }
+  &-contact {
+    padding: 0px 10px;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  &-footer {
+    padding: 0px 10px;
+    width: 12rem;
+    height: 5rem;
+    font-size: 3rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  &-modal {
+    padding: 0.5rem 2rem;
+    align-self: flex-end;
+    border: 2px solid black;
+    overflow: hidden;
+    color: black;
+  }
+  &-white {
+    background-color: transparent;
+    color: white;
+    &::after {
+      background-color: transparent;
+    }
+  }
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(black, 0.2);
+    background-color: #f6004c;
+    color: white;
+    .github-cat {
+      filter: invert(1);
+    }
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+      background-color: #f6004c;
+    }
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(black, 0.2);
+  }
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+}
