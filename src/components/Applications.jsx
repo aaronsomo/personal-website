@@ -34,7 +34,7 @@ const Applications = () => {
         <div className="title" data-aos="fade-down">
           <h2>Applications</h2>
         </div>
-        <p className="mobileInfo">(tap photo for project details)</p>
+        <p className="mobileInfo">(tap for details)</p>
         <div ref={ref} className="projectsWrapper">
           <Projects projects={projects} />
         </div>
